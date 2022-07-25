@@ -1,0 +1,81 @@
+
+
+$color1: #4E6EF1;
+$color2: #4765db;
+
+$color-icon1: #FFEFFF;
+$color-icon2: #fb32fb;
+$color-icon3: #E4E9FF;
+$color-icon4: #4e6ef1;
+$color-icon5: #FFEAEA;
+$color-icon6: #ff3b3b;
+$color-icon7: #ECE8FF;
+$color-icon8: #5a37ff;
+/* font 1 */
+
+
+/*_________________ font 1 _______________________*/
+%archivio-black-regular {
+    font-family: archivo-black, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #313450;
+}
+%font1-xs {
+    @extend %archivio-black-regular;
+    font-size: 25px;
+}
+%font1-s {
+    @extend %archivio-black-regular;
+    font-size: 30px;
+}
+%font1-m {
+    @extend %archivio-black-regular;
+    font-size: 35px;
+}
+%font1-l {
+    @extend %archivio-black-regular;
+    font-size: 45px;
+}
+%font1-xl {
+    @extend %archivio-black-regular;
+    font-size: 50px;
+}
+
+/*_________________ font 1 _______________________*/
+%poppins-regular {
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #6b6f92
+}
+
+%font2-s {
+    @extend %poppins-regular;
+    font-size: 16px;
+}
+
+%font2-m {
+    @extend %poppins-regular;
+    font-size: 18px;
+    line-height: 28px;
+}
+%font2-l {
+    @extend %poppins-regular;
+    font-size: 20px;
+}
+
+%font2-xl {
+    @extend %poppins-regular;
+    font-size: 24px;
+}
+
+%button {
+    @extend %font2-m;
+    text-decoration: none;
+    background-color: $color1;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    
+}

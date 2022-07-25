@@ -1,0 +1,748 @@
+/* font 1 */
+/*_________________ font 1 _______________________*/
+.section-1 .hero .hero-text h1, .section-5 .info .info-text .i-cards .info-card h2, .section-9 .pricing .pricing-text h2, .section-8 .container-8 .text h2, .section-3 .about .about-text h2, body h3, .section-1 .hero .hero-text h2, .section-12 .footer h4, .section-9 .pricing .pricing-cards .p-card .title h4, .section-7 .f-text h4, .section-4 .services .services-cards .s-card h4 {
+  font-family: archivo-black, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #313450;
+}
+
+.section-12 .footer h4, .section-9 .pricing .pricing-cards .p-card .title h4, .section-7 .f-text h4, .section-4 .services .services-cards .s-card h4 {
+  font-size: 25px;
+}
+
+.section-1 .hero .hero-text h2 {
+  font-size: 30px;
+}
+
+.section-9 .pricing .pricing-text h2, .section-8 .container-8 .text h2, .section-3 .about .about-text h2, body h3 {
+  font-size: 35px;
+}
+
+.section-5 .info .info-text .i-cards .info-card h2 {
+  font-size: 45px;
+}
+
+.section-1 .hero .hero-text h1 {
+  font-size: 50px;
+}
+
+/*_________________ font 1 _______________________*/
+.section-5 .info .info-text .i-cards .info-card p, .section-7 .f-text p, .section-5 .info .info-text p, .section-4 .services .services-text p, .section-3 .about .about-text .about-card h3, .section-1 .navbar .nav-menu a, .section-11 .contact .button a, .section-9 .pricing .pricing-cards .p-card .button a, .section-8 .container-8 .button a, .section-4 .services .button a, .section-3 .about .about-text .button a, .section-1 .hero .hero-text a, .section-12 .footer a, .section-12 .footer li, .section-9 .pricing .pricing-cards .p-card .text ul, .section-7 .f-text h6, body p {
+  font-family: poppins, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #6b6f92;
+}
+
+.section-12 .footer a, .section-12 .footer li, .section-9 .pricing .pricing-cards .p-card .text ul, .section-7 .f-text h6, body p {
+  font-size: 16px;
+}
+
+.section-5 .info .info-text p, .section-4 .services .services-text p, .section-3 .about .about-text .about-card h3, .section-1 .navbar .nav-menu a, .section-11 .contact .button a, .section-9 .pricing .pricing-cards .p-card .button a, .section-8 .container-8 .button a, .section-4 .services .button a, .section-3 .about .about-text .button a, .section-1 .hero .hero-text a {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.section-7 .f-text p {
+  font-size: 20px;
+}
+
+.section-5 .info .info-text .i-cards .info-card p {
+  font-size: 24px;
+}
+
+.section-11 .contact .button a, .section-9 .pricing .pricing-cards .p-card .button a, .section-8 .container-8 .button a, .section-4 .services .button a, .section-3 .about .about-text .button a, .section-1 .hero .hero-text a {
+  text-decoration: none;
+  background-color: #4E6EF1;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 30px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.section-1 {
+  background-image: url(img/hero-bg.jpeg);
+  overflow: hidden;
+  background-size: cover;
+}
+.section-1 .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.section-1 .navbar .nav-style {
+  display: flex;
+  height: 75px;
+  max-width: 1200px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  background-color: transparent;
+}
+.section-1 .navbar .logo img {
+  max-width: 180px;
+}
+.section-1 .navbar .nav-menu ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.section-1 .navbar .nav-menu a {
+  text-decoration: none;
+  margin-right: 30px;
+  border-bottom: transparent solid 1px;
+}
+.section-1 .navbar .nav-menu a:hover {
+  color: #4E6EF1;
+  border-bottom: #4E6EF1 solid 2px;
+}
+.section-1 .hero {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 75px;
+  padding-top: 130px;
+  padding-bottom: 125px;
+  display: flex;
+  align-items: center;
+}
+.section-1 .hero .hero-text {
+  text-align: left;
+  flex: 0 1 60%;
+}
+.section-1 .hero .hero-text h2 {
+  color: #4E6EF1;
+  margin-bottom: 20px;
+}
+.section-1 .hero .hero-text h1 {
+  margin-bottom: 35px;
+}
+.section-1 .hero .hero-text p {
+  margin-bottom: 40px;
+  margin-right: 70px;
+}
+.section-1 .hero .hero-text a:hover {
+  background-color: #4765db;
+}
+.section-1 .hero .hero-img {
+  flex: 0 1 40%;
+}
+.section-1 .hero .hero-img img {
+  max-width: 100%;
+}
+
+.section-2 {
+  background-color: rgba(246, 247, 255, 0.5882352941);
+}
+.section-2 .clients-logo {
+  max-width: 1200px;
+  margin: auto;
+  opacity: 0.43;
+  padding: 50px 0;
+}
+.section-2 .clients-logo img {
+  flex: 0 1 33.333333%;
+  padding: 20px;
+}
+
+.section-3 {
+  background-color: rgba(246, 247, 255, 0.5882352941);
+  padding-bottom: 150px;
+}
+.section-3 .about {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+}
+.section-3 .about .about-img {
+  flex: 0 1 50%;
+  width: 100%;
+  margin-right: 20px;
+}
+.section-3 .about .about-text {
+  margin-left: 20px;
+}
+.section-3 .about .about-text h2 {
+  margin-bottom: 20px;
+}
+.section-3 .about .about-text .about-card {
+  background-color: rgb(222, 108, 108);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #fff;
+  box-shadow: 0px 0px 35px #f2f4f9;
+}
+.section-3 .about .about-text .about-card h3 {
+  font-weight: 600;
+  color: #313450;
+}
+.section-3 .about .about-text .button {
+  padding: 10px;
+}
+.section-3 .about .about-text .button a:hover {
+  background-color: #4765db;
+  animation: backwards;
+}
+
+.section-4 {
+  background-image: url(img/service-bg.jpeg);
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+.section-4 .services {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+.section-4 .services .services-text {
+  max-width: 500px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.section-4 .services .services-cards {
+  display: flex;
+  margin-bottom: 60px;
+}
+.section-4 .services .services-cards .s-card {
+  background-color: #fff;
+  border-radius: 10px;
+  flex: 0 1 33.3333%;
+  margin: 15px;
+  padding: 50px 30px;
+  box-shadow: 0px 0px 45px rgba(197, 211, 248, 0.431372549);
+}
+.section-4 .services .services-cards .s-card img {
+  max-width: 100%;
+  padding: 20px;
+  background-color: #E4E9FF;
+  border-radius: 50px;
+  margin-bottom: 30px;
+}
+.section-4 .services .services-cards .s-card h4 {
+  margin-bottom: 15px;
+}
+.section-4 .services .services-cards .one img {
+  background-color: #FFEFFF;
+}
+.section-4 .services .services-cards .two img {
+  background-color: #E4E9FF;
+}
+.section-4 .services .services-cards .three img {
+  background-color: #FFEAEA;
+}
+.section-4 .services .services-cards .four img {
+  background-color: #ECE8FF;
+}
+.section-5 .info {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding: 150px 0;
+}
+.section-5 .info .info-text {
+  flex: 0 1 50%;
+}
+.section-5 .info .info-text h3 {
+  margin-bottom: 20px;
+}
+.section-5 .info .info-text .i-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+.section-5 .info .info-text .i-cards .info-card {
+  flex: 0 1 50%;
+  padding: 20px;
+}
+.section-5 .info .info-text .i-cards .info-card img {
+  background-color: #ECE8FF;
+  padding: 20px;
+  border-radius: 20px;
+}
+.section-5 .info .info-text .i-cards .one img {
+  background-color: #FFEFFF;
+}
+.section-5 .info .info-text .i-cards .two img {
+  background-color: #E4E9FF;
+}
+.section-5 .info .info-text .i-cards .three img {
+  background-color: #FFEAEA;
+}
+.section-5 .info .info-text .i-cards .four img {
+  background-color: #ECE8FF;
+}
+.section-5 .info .info-img {
+  flex: 0 1 50%;
+}
+
+.section-6 {
+  background-image: url(img/service-bg.jpeg);
+  background-size: cover;
+}
+.section-6 .portfolio {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 100px 0;
+}
+.section-6 .portfolio .portfolio-text {
+  max-width: 500px;
+  margin: auto;
+}
+.section-6 .portfolio .portfolio-text p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+.section-6 .portfolio .portfolio-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-6 .portfolio .portfolio-cards .port-img {
+  position: relative;
+  flex: 0 1 25%;
+  margin: auto;
+  padding: 30px 15px;
+}
+.section-6 .portfolio .portfolio-cards .port-img img {
+  border-radius: 10px;
+}
+
+.section-7 .feedback {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 100px 0;
+}
+.section-7 .mySlides {
+  display: none;
+}
+.section-7 .w3-left, .section-7 .w3-right, .section-7 .w3-badge {
+  cursor: pointer;
+}
+.section-7 .w3-badge {
+  height: 13px;
+  width: 13px;
+  padding: 0;
+}
+.section-7 img {
+  width: 100px;
+  background-image: linear-gradient(160deg, #FFEFFF, #4e6ef1);
+  border-radius: 100px;
+  margin: 50px;
+}
+.section-7 .f-text {
+  max-width: 700px;
+  margin: auto;
+}
+.section-7 .f-text p {
+  font-style: italic;
+  padding-bottom: 20px;
+}
+.section-7 .f-text h4 {
+  font-size: 22px;
+  margin-bottom: 0;
+}
+.section-7 .f-text h6 {
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.section-8 {
+  background-image: url(img/cta-bg.jpeg);
+  padding: 100px 0;
+}
+.section-8 .container-8 {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.section-8 .container-8 .text {
+  flex: 0 1 75%;
+  padding-right: 0px;
+  max-width: 750px;
+  padding-right: 150px;
+}
+.section-8 .container-8 .text p {
+  font-size: 18px;
+}
+.section-8 .container-8 .button a {
+  flex: 0 1 25%;
+  text-align: right;
+  margin-left: 150px;
+}
+
+.section-9 {
+  padding: 100px 0;
+}
+.section-9 .pricing {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.section-9 .pricing .pricing-text {
+  flex: 0 1 50%;
+  background-image: url(img/pricing-shape.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 500px;
+  padding: 180px 0;
+}
+.section-9 .pricing .pricing-text h2 {
+  padding: 0 30px;
+}
+.section-9 .pricing .pricing-text p {
+  font-size: 18px;
+  padding: 0 30px;
+}
+.section-9 .pricing .pricing-cards {
+  flex: 0 1 50%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.section-9 .pricing .pricing-cards .p-card {
+  background-color: #fff;
+  box-shadow: 0px 0px 45px rgba(197, 211, 248, 0.43);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+}
+.section-9 .pricing .pricing-cards .p-card .title {
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px;
+}
+.section-9 .pricing .pricing-cards .p-card .title h3 {
+  color: #4E6EF1;
+}
+.section-9 .pricing .pricing-cards .p-card .text {
+  margin: 30px 10px;
+}
+.section-9 .pricing .pricing-cards .p-card .text ul {
+  list-style-type: none;
+  line-height: 35px;
+}
+.section-9 .pricing .pricing-cards .p-card .button {
+  margin: 20px 15px;
+}
+.section-10 {
+  background-color: rgba(246, 247, 255, 0.5882352941);
+  padding: 100px 0;
+}
+.section-10 .team {
+  max-width: 1200px;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+.section-10 .team .team-text {
+  max-width: 600px;
+  margin: auto;
+}
+.section-10 .team .team-text p {
+  font-size: 18px;
+  margin: 20px;
+}
+.section-10 .team .team-cards {
+  display: flex;
+  margin-top: 50px;
+}
+.section-10 .team .team-cards .t-card {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  flex: 0 1 25%;
+  border-radius: 10px;
+}
+.section-10 .team .team-cards .t-card h3 {
+  font-size: 30px;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+.section-10 .team .team-cards .t-card img {
+  border-radius: 15px;
+}
+
+.section-11 {
+  background-color: rgba(246, 247, 255, 0.5882352941);
+  padding: 100px 0;
+}
+.section-11 .contact {
+  max-width: 1200px;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+.section-11 .contact .contact-text {
+  max-width: 600px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.section-11 .contact .contact-form .forms {
+  display: flex;
+}
+.section-11 .contact .contact-form .form1 {
+  flex: 0 1 50%;
+  width: 100%;
+  padding: 20px 15px;
+  border: none;
+  border-radius: 10px;
+}
+.section-11 .contact .contact-form .textarea {
+  padding: 20px 15px;
+}
+.section-11 .contact .contact-form .textarea textarea {
+  resize: none;
+  width: 100%;
+  padding: 20px 15px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+.section-11 .contact .contact-form .textarea :focus {
+  outline: none !important;
+  border: 1px solid #4E6EF1;
+}
+.section-11 .contact .contact-form ::placeholder {
+  color: #6b6f92;
+}
+.section-11 .contact .contact-form :focus {
+  outline: none !important;
+  border: 1px solid #4E6EF1;
+}
+.section-11 .contact .button {
+  margin: 30px;
+}
+.section-12 {
+  background-image: url(img/footer-bg.svg);
+  background-size: cover;
+  padding-top: 100px;
+}
+.section-12 .footer {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  padding-bottom: 50px;
+}
+.section-12 .footer ul {
+  list-style-type: none;
+  margin-top: 20px;
+}
+.section-12 .footer a, .section-12 .footer li {
+  line-height: 35px;
+  text-decoration: none;
+}
+.section-12 .footer .footer-info {
+  flex: 0 1 30%;
+  max-width: 400px;
+  margin-bottom: 10px;
+  align-items: flex-start;
+}
+.section-12 .footer .footer-info img {
+  max-width: 180px;
+}
+.section-12 .footer .footer-info .info-text {
+  max-width: 300px;
+}
+.section-12 .footer .footer-info .social-icons {
+  display: flex;
+}
+.section-12 .footer .footer-info .social-icons .social-img {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.section-12 .footer .footer-links {
+  flex: 0 1 20%;
+  max-width: 200px;
+  margin: auto;
+}
+.section-12 .footer .footer-services {
+  flex: 0 1 20%;
+  max-width: 200px;
+  margin: auto;
+}
+.section-12 .footer .footer-contacts {
+  flex: 0 1 30%;
+  max-width: 400px;
+}
+.section-12 .footer .footer-contacts .contact-img {
+  margin-top: 10px;
+}
+.section-12 .footer .footer-contacts img {
+  max-width: 130px;
+}
+.section-12 .footer-terms {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  padding: 30px 0;
+  border-top: 1px solid #fff;
+}
+
+/* ___________________ */
+@media (max-width: 1200px) {
+  .section-1 .nav-menu {
+    display: none;
+  }
+  .section-1 .logo {
+    margin: auto;
+  }
+  .section-1 .hero {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 70px;
+  }
+  .section-2 .clients-logo {
+    max-width: 800px;
+    margin: none;
+  }
+  .section-2 .clients-logo img {
+    max-width: 190px;
+  }
+  .section-3 p {
+    font-size: 12px;
+  }
+  .section-3 h3 {
+    font-size: 16px;
+  }
+  .section-3 h2 {
+    font-size: 25px;
+  }
+  .section-3 .about {
+    max-width: 800px;
+    margin: auto;
+  }
+  .section-4 .services {
+    max-width: 800px;
+  }
+  .section-4 .services .services-text {
+    margin-bottom: 30px;
+  }
+  .section-4 .services .services-text p {
+    margin-top: 10px;
+  }
+  .section-4 .services .services-cards {
+    display: flex;
+    margin-bottom: 60px;
+  }
+  .section-4 .services .services-cards .s-card {
+    margin: 10px;
+    padding: 40px 10px;
+  }
+  .section-5 .info {
+    max-width: 800px;
+    margin: auto;
+    padding: 100px 0;
+  }
+  .section-5 .info .info-text .i-cards .info-card h2 {
+    font-size: 35px;
+  }
+  .section-5 .info .info-text .i-cards .info-card p {
+    font-size: 20px;
+  }
+  .section-5 .info .info-text .i-cards .info-card img {
+    padding: 10px;
+    border-radius: 30px;
+  }
+  .section-5 .info .info-img {
+    margin: auto;
+    flex: 0 1 50%;
+  }
+  .section-5 .info .info-img img {
+    max-width: 450px;
+  }
+  .section-6 .portfolio {
+    max-width: 800px;
+    margin: auto;
+    padding: 50px 0;
+  }
+  .section-7 .feedback {
+    max-width: 800px;
+    margin: auto;
+  }
+  .section-8 .container-8 {
+    max-width: 800px;
+    margin: auto;
+  }
+  .section-8 .container-8 .text {
+    padding-right: 60px;
+    max-width: 450px;
+  }
+  .section-8 .container-8 .button a {
+    flex: 0 1 50%;
+    text-align: right;
+    margin-left: 50px;
+  }
+  .section-9 {
+    padding: 50px 0;
+  }
+  .section-9 .pricing {
+    max-width: 800px;
+    margin: auto;
+    display: block;
+    text-align: center;
+  }
+  .section-9 .pricing .pricing-text {
+    padding: 20px 0;
+    background-image: none;
+  }
+  .section-9 .pricing .pricing-cards {
+    padding-top: 30px;
+  }
+  .section-9 .pricing .pricing-cards .p-card {
+    flex: 0 1 50%;
+    margin: 0 50px;
+  }
+  .section-10 {
+    padding-bottom: 0;
+  }
+  .section-10 .team {
+    max-width: 800px;
+    margin: auto;
+  }
+  .section-10 .team .team-cards .t-card {
+    padding: 10px;
+    margin: 10px;
+  }
+  .section-10 .team .team-cards .t-card h3 {
+    font-size: 20px;
+  }
+  .section-10 .team .team-cards .t-card p {
+    font-size: 14px;
+  }
+  .section-11 .contact {
+    max-width: 800px;
+    margin: auto;
+  }
+  .section-11 .contact .contact-text {
+    padding-bottom: 20px;
+  }
+  .section-12 {
+    background-image: url(img/footer-bg.svg);
+    background-size: cover;
+    padding-top: 100px;
+  }
+  .section-12 .footer {
+    max-width: 800px;
+    margin: auto;
+  }
+  .section-12 .footer .footer-info {
+    flex: 0 1 40%;
+  }
+  .section-12 .footer .footer-links {
+    flex: 0 1 10%;
+  }
+}/*# sourceMappingURL=style.css.map */
